@@ -57,9 +57,23 @@
         </li>
       </ul>
     </header>
-    <section class="catalog-products">
-      <h2 class="filter">ФИЛЬТР:</h2>
-      <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+    <div class="catalog-header">
+      <b class="filter">Фильтр:</b>
+      <b class="sorting">Сортировка:</b>
+      <select class="select-control" aria-label="Сортировка">
+        <option value="popular">Популюрное</option>
+        <option value="price">Цена</option>
+        <option value="type">Тип товара</option>
+      </select>
+      <button class="button-up" type="submit">
+        <span class="visually-hidden">Сортировать вверх</span>
+      </button>
+      <button class="button-down" type="submit">
+        <span class="visually-hidden">Сортировать вниз</span>
+      </button>
+    </div>
+    <aside class="left-side">
+      <h2 class="visually-hidden">Форма с фильтрами</h2>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Цвет</legend>
@@ -107,7 +121,7 @@
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
               <label class="control">
-                <input class="input-control" type="radio" name="bluetooth" value="there-is" checked>
+                <input class="input-control" type="radio" name="bluetooth" value="yes" checked>
                 Есть
               </label>
             </li>
@@ -121,18 +135,9 @@
         </fieldset>
         <button class="button" type="submit">Показать</button>
       </form>
-      <h2 class="sorting">СОРТИРОВКА:</h2>
-      <select class="select-control" aria-label="Сортировка">
-        <option value="popular">Популюрное</option>
-        <option value="price">Цена</option>
-        <option value="type">Тип товара</option>
-      </select>
-      <a href="#" class="button-up">
-        <span class="visually-hidden">Сортировать вверх</span>
-      </a>
-      <a class="button-down" href="#">
-        <span class="visually-hidden">Сортировать вниз</span>
-      </a>
+    </aside>
+    <section class="catalog-products">
+      <h2 class="visually-hidden">Сетка товаров</h2>
       <ul class="product-list">
         <li class="product-card">
           <a class="product-card-link" href="product.html">
