@@ -31,9 +31,11 @@
 }
 
 body {
-  font-family: "Rubik"sans-serif;
+  font-family: Rubik, Raleway, sans-serif;
   font-size: 18px;
   line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
   color: #444444;
   background-color: #FFFFFF;
 }
@@ -46,8 +48,6 @@ body {
 .text-header-search,
 .button-search-button {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
@@ -57,14 +57,11 @@ body {
 .my-header-login,
 .my-header-compare,
 .my-header-choise {
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Rubik, Raleway, sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: inherit;
   text-decoration: none;
-
 }
 
 .my-navigation-item-link {
@@ -81,7 +78,6 @@ body {
 
 .slider-title {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
@@ -90,8 +86,6 @@ body {
 
 .slider-text {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -99,7 +93,6 @@ body {
 
 .button {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -110,8 +103,6 @@ body {
 
 .parametrs-distance {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 36px;
   line-height: 30px;
   color: #000000;
@@ -120,8 +111,6 @@ body {
 
 .parametrs-description {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: #444444;
@@ -132,9 +121,8 @@ body {
   text-decoration: none;
 }
 
-.categories-name {
+.cats-name {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -149,7 +137,6 @@ body {
 
 .services-link {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -160,17 +147,14 @@ body {
 
 .services-title {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
 }
 
-.services-description {
+.services-desc {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -178,7 +162,6 @@ body {
 
 .delivery-description-promo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 20px;
   line-height: 23px;
@@ -191,7 +174,6 @@ body {
 
 .about-us-header {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
@@ -202,8 +184,6 @@ body {
 
 .about-us-text {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   background-color: #FFFFFF;
@@ -212,7 +192,6 @@ body {
 
 .about-item-text {
   font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -223,7 +202,6 @@ body {
 
 .more-about {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -237,7 +215,6 @@ body {
 
 .name-of-shop {
   font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
@@ -247,8 +224,6 @@ body {
 
 .contacts-addres-text {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   background-color: #FFFFFF;
@@ -257,8 +232,6 @@ body {
 
 .contacts-phone {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   text-decoration-line: underline;
@@ -268,8 +241,6 @@ body {
 
 .contacts-schedule-item {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   background-color: #FFFFFF;
@@ -278,7 +249,6 @@ body {
 
 .contacts-subtitle {
   font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
@@ -288,7 +258,6 @@ body {
 
 .contacts-feedback {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -306,7 +275,6 @@ body {
 
 .subscribe-title {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
@@ -315,8 +283,6 @@ body {
 
 .subscribe-text {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -324,8 +290,6 @@ body {
 
 #email-subscribe {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -334,7 +298,6 @@ body {
 
 .subscribe-button {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -348,8 +311,6 @@ body {
 
 .subscribe-is-free {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
@@ -361,8 +322,6 @@ body {
 
 .footer-wrapper-address {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
@@ -370,8 +329,6 @@ body {
 
 .contacts-phone-footer {
   font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   text-decoration-line: underline;
@@ -380,7 +337,6 @@ body {
 
 .footer-menu-link {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -388,4 +344,120 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.social-button {
+  text-decoration: none;
+  color: #FFE17F;
+}
+
+.inner-header-title {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.breadcrumbs-link {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.filter,
+.sorting {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-option {
+  font-family: Rubik;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.catalog-filter-title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.control {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.product-card-title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.details-link {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-card-price {
+  font-family: Rubik;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #444444;
+}
+
+.product-show-more {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.pagination-text {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.pagination-link {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #444444;
+  opacity: 0.3;
 }
