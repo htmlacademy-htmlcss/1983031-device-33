@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
   <header class="page-header">
-    <a class="navigation-logo" href="index.html">
-      <img class="page-header-logo" alt="Логотип DEVICE." src="#">
+    <a href="index.html" class="header-logo">
+      <img src="img/header/logo-header.svg" width="145" height="36" alt="Логотип сайта">
     </a>
     <section class="header-section-wrraper">
       <form class="header-search" action="https://echo.htmlacademy.ru/" method="get">
@@ -28,16 +29,16 @@
     <nav class="header-link">
       <ul class="my-navigation-list">
         <li class="my-navigation-item">
-          <a href="#">Каталог товаров</a>
+          <a class="my-navigation-item-link" href="#">Каталог товаров</a>
         </li>
         <li class="my-navigation-item">
-          <a href="#">Доставка</a>
+          <a class="my-navigation-item-link" href="#">Доставка</a>
         </li>
         <li class="my-navigation-item">
-          <a href="#">Гарантия</a>
+          <a class="my-navigation-item-link" href="#">Гарантия</a>
         </li>
         <li class="my-navigation-item">
-          <a href="#">Контакты</a>
+          <a class="my-navigation-item-link" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -61,9 +62,9 @@
       <b class="filter">Фильтр:</b>
       <b class="sorting">Сортировка:</b>
       <select class="select-control" aria-label="Сортировка">
-        <option value="popular">Популюрное</option>
-        <option value="price">Цена</option>
-        <option value="type">Тип товара</option>
+        <option value="popular"><span class="select-option">Популярное</span></option>
+        <option value="price"><span class="select-option">Цена</span></option>
+        <option value="type"><span class="select-option">Тип товара</span></option>
       </select>
       <button class="button-up" type="submit">
         <span class="visually-hidden">Сортировать вверх</span>
@@ -141,7 +142,7 @@
       <ul class="product-list">
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="#" alt="">
+            <img class="product-card-image" src="img/amateur-selfie.jpg" alt="Любительская селфи-палка">
             <h3 class="product-card-title">Любительская селфи-палка</h3>
           </a>
           <b class="product-card-price">500 ₽</b>
@@ -151,7 +152,7 @@
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="#" alt="">
+            <img class="product-card-image" src="img/professional-selfie.jpg" alt="Профессиональная селфи-палка">
             <h3 class="product-card-title">Профессиональная селфи-палка</h3>
           </a>
           <b class="product-card-price">1500 ₽</b>
@@ -161,7 +162,7 @@
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="#" alt="">
+            <img class="product-card-image" src="img/diving-selfie.jpg" alt="Непотопляемая селфи-палка">
             <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
           </a>
           <b class="product-card-price">2500 ₽</b>
@@ -171,7 +172,7 @@
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="#" alt="">
+            <img class="product-card-image" src="img/go-to-selfie.jpg" alt="Селфи-палка Следуй за мной">
             <h3 class="product-card-title">Селфи-палка "Следуй за мной"</h3>
           </a>
           <b class="product-card-price">1500 ₽</b>
@@ -213,7 +214,7 @@
   <footer class="main-footer">
     <div class="container">
       <a href="#" class="footer-logo">
-        <img src="#" alt="Логотип сайта">
+        <img src="img/footer/logo-footer-device.svg" alt="Логотип сайта">
       </a>
       <address class="footer-wrapper-address">
         Санкт-Петербург, набережная
@@ -221,16 +222,16 @@
       </address>
       <ul class="footer-menu-list">
         <li class="footer-menu-item">
-          <a href="#">Доставка</a>
+          <a class="footer-menu-link" href="#">Доставка</a>
         </li>
         <li class="footer-menu-item">
-          <a href="#">Гарантия</a>
+          <a class="footer-menu-link" href="#">Гарантия</a>
         </li>
         <li class="footer-menu-item">
-          <a href="#">Контакты</a>
+          <a class="footer-menu-link" href="#">Контакты</a>
         </li>
       </ul>
-      <a href="tel:78128121212" class="contacts-phone">Тел: +7 (812) 812-12-12</a>
+      <a href="tel:78128121212" class="contacts-phone-footer">Тел: +7 (812) 812-12-12</a>
     </div>
     <div class="footer-wrapper-bottom">
       <ul class="social-button-list">
@@ -245,7 +246,7 @@
         </li>
       </ul>
       <a href="https://echo.htmlacademy.ru/" class="footer-academy-logo" title="Интенсивный курс HTML/CSS">
-        <img src="#" alt="Логотип академии">
+        <img src="img/footer/html-academy-logo.svg" width="115" height="33" alt="Логотип академии">
       </a>
     </div>
   </footer>
