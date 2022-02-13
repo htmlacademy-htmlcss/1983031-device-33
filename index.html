@@ -8,10 +8,10 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-header">
     <header class="page-header">
-      <a href="#" class="header-logo">
-        <img src="img/header/logo-header.svg" width="145" height="36" alt="Логотип сайта">
+      <a href="#" class="header-logo-link">
+        <img class="header-logo" src="img/header/logo-header.svg" width="145" height="36" alt="Логотип сайта">
       </a>
       <section class="header-section-wrraper">
         <form class="header-search" action="https://echo.htmlacademy.ru/" method="get">
@@ -30,22 +30,22 @@
       <nav class="header-link">
         <ul class="my-navigation-list">
           <li class="my-navigation-item">
-            <a class="my-navigation-item-link" href="/catalog.html">Каталог товаров</a>
+            <a class="my-navigation-item-link catalog-nav" href="/catalog.html">Каталог товаров</a>
           </li>
           <li class="my-navigation-item">
-            <a class="my-navigation-item-link" href="#">Доставка</a>
+            <a class="my-navigation-item-link delivery-nav" href="#">Доставка</a>
           </li>
           <li class="my-navigation-item">
-            <a class="my-navigation-item-link" href="#">Гарантия</a>
+            <a class="my-navigation-item-link warranty-nav" href="#">Гарантия</a>
           </li>
           <li class="my-navigation-item">
-            <a class="my-navigation-item-link" href="#">Контакты</a>
+            <a class="my-navigation-item-link contacts-nav" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
     </header>
   </div>
-  <main class="main container">
+  <main class="main-container">
     <h1 class="visually-hidden">Главная страница сайта DEVICE</h1>
     <section class="slider-container">
       <h2 class="visually-hidden">Слайдер товаров</h2>
@@ -58,8 +58,8 @@
             <div class="slider-item-right">
               <p class="slider-title">Порхает как бабочка,<br>
                 жалит как пчела!</p>
-              <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер<br>
-                оснащен мощным лазером, замаскированным под стандартную камеру.
+              <p class="slider-text">Этот обычный, на первый взгляд, квадрокоптер
+                оснащен <br> мощным лазером, замаскированным под стандартную камеру.
               </p>
               <div class="slider-link-wrap">
                 <button class="button">Подробнее</button>
@@ -131,7 +131,7 @@
     </section>
     <section class="services">
       <h2 class="visually-hidden">Услуги</h2>
-      <div class="container">
+      <div class="container-services">
         <ul class="services-nav">
           <li class="services-tab-current">
             <button class="services-link" type="button">Доставка</button>
@@ -146,8 +146,8 @@
         <div class="services-delivery-wrapper">
           <div class="services-description-delivery">
             <b class="services-title">Доставка</b>
-            <p class="services-desc">Мы с удовольствием доставим ваш товар прямо
-              к вашему <br> подъезду совершенно бесплатно! Ведь <br>
+            <p class="services-desc">Мы с удовольствием доставим ваш товар прямо <br>
+              к вашему подъезду совершенно бесплатно!<br> Ведь
               мы неплохо заработаем, поднимая его на ваш этаж.</p>
           </div>
           <div class="services-warranty-wrapper">
@@ -167,7 +167,7 @@
     </section>
     <section class="delivery-promo">
       <h2 class="visually-hidden">Доставка редких товаров под заказ</h2>
-      <div class="container">
+      <div class="container-promo">
         <p class="delivery-description-promo">Доставим редкий товар под заказ</p>
         <button class="about-delivery" type="button">Инфо</button>
       </div>
@@ -208,21 +208,25 @@
       </section>
     </div>
     <section class="subscribe-section">
-      <h2 class="subscribe-title">Подпишитесь
-        на рассылку</h2>
-      <p class="subscribe-text">Еженедельный дайджест с обзорами новинок,
-        длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.
-      </p>
-      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="email-subscribe">Ваш e-mail:</label>
-        <input type="email" placeholder="Ваш e-mail:" name="mail" required id="email-subscribe">
-        <button class="subscribe-button" type="submit">Подписаться</button>
-        <p class="subscribe-is-free">Это бесплатно</p>
-      </form>
+      <div class="container-subscribe">
+        <div class="subscribe-desc">
+          <h2 class="subscribe-title">Подпишитесь<br>
+            на рассылку</h2>
+          <p class="subscribe-text">Еженедельный дайджест с обзорами новинок,<br>
+            длительными тест-драйвами, распаковками, а также акции,<br> спецпредложения и вот это вот всё.
+          </p>
+        </div>
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="email-subscribe">Ваш e-mail:</label>
+          <input type="email" placeholder="Ваш e-mail:" name="mail" required id="email-subscribe">
+          <button class="subscribe-button" type="submit">Подписаться</button>
+          <p class="subscribe-is-free">Это бесплатно</p>
+        </form>
+      </div>
     </section>
   </main>
   <footer class="main-footer">
-    <div class="container">
+    <div class="footer-container">
       <a href="#" class="footer-logo">
         <img src="img/footer/logo-footer-device.svg" alt="Логотип сайта">
       </a>
