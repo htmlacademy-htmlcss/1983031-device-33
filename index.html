@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -15,9 +15,8 @@
       </a>
       <section class="header-section-wrraper">
         <form class="header-search" action="https://echo.htmlacademy.ru/" method="get">
-          <label class="visually-hidden">Строка поиска
-            <input type="search" class="text-header-search" placeholder="Текст поиска">
-          </label>
+          <label for="search" class="visually-hidden">Строка поиска</label>
+          <input type="search" id="search" class="text-header-search" placeholder="Текст поиска">
           <button type="submit" class="button-search-button">Найти</button>
         </form>
         <a href="#" class="my-header-login">
@@ -226,12 +225,14 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div class="footer-container">
+    <div class="footer-logo">
       <a href="#" class="footer-logo">
         <img src="img/footer/logo-footer-device.svg" alt="Логотип сайта">
       </a>
+    </div>
+    <div class="footer-container">
       <address class="footer-wrapper-address">
-        Санкт-Петербург, набережная
+        Санкт-Петербург, набережная<br>
         реки Карповки, 5, литера П.
       </address>
       <ul class="footer-menu-list">
@@ -249,14 +250,14 @@
     </div>
     <div class="footer-wrapper-bottom">
       <ul class="social-button-list">
-        <li>
-          <a href="#" class="social-button">Fasebook</a>
+        <li class="footer-social-item">
+          <a href="#" class="social-button"><span class="visually-hidden">Fasebook</span></a>
         </li>
-        <li>
-          <a href="#" class="social-button">Instagram</a>
+        <li class="footer-social-item">
+          <a href="#" class="social-button"><span class="visually-hidden">Instagram</span></a>
         </li>
-        <li>
-          <a href="#" class="social-button">Twiter</a>
+        <li class="footer-social-item">
+          <a href="#" class="social-button"><span class="visually-hidden">Twiter</span></a>
         </li>
       </ul>
       <a href="https://echo.htmlacademy.ru/" class="footer-academy-logo" title="Интенсивный курс HTML/CSS">
